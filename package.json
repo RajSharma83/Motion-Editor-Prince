@@ -1,0 +1,21 @@
+{
+  "name": "motion-editor-prince",
+  "version": "1.0.0",
+  "description": "Welcome to the **Prince Video Editor** web app / portfolio project!",
+  "main": "script.js",
+  "scripts": {
+  "test": "echo \"Error: no test specified\" && exit 1",
+   "minify-js": "terser script.js -o script.min.js -c -m",
+  "minify-css": "cleancss -o style.min.css style.css",
+  "minify-css-media": "cleancss -o media.min.css media.css",
+  "minify-all": "npm run minify-js && npm run minify-css && npm run minify-css-media"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-css-cli": "^5.6.3",
+    "terser": "^5.44.1"
+  }
+}
+

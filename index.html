@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Video Editor -- Prince</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="media.css">
+  <link rel="stylesheet" href="style.min.css">
+  <link rel="stylesheet" href="media.min.css">
+    <script src="script.min.js" defer></script>
+<link rel="shortcut icon" href="/assests/favicon.png" type="image/x-icon">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">PRINCE SHARMA</div>
+        <div class="hamburger">☰</div>
+    <div class="nav">
+      <a href="index.html">Home</a>
+      <a href="#showreel">Showreels</a>
+      <a href="#ProjectsId">Projects</a>
+      <a href="#serviceId">Services</a>
+      <a href="#skillId">Skills</a>
+      <a href="#contactId">Contact</a>
+    </div>
+  </nav>
+  <section class="about-section">
+    <div class="about-text">
+      <h1>Hello I'm a </h1>
+      <h3>
+        <span class="job-title">Video Editor & </span>
+        <span class="job-title">&ensp;&ensp;Motion Editor</span>
+      </h3> <br><br>
+      <div class="about-box">
+       Hi, I'm  <span class="ps">Prince Sharma</span> -- &ensp;
+      A Passionate Video Editor And Motion Graphics Designer Based In Noida,
+      Currently Pursuing My Bachelor's In Animation, I Specialize In Crafting Visual Stories
+      Through Dynamic Edits And Creative Motion Design.
+      </div><br>
+      <div class="about-buttons">
+        <a href="/assests/resume.pdf" class="resume" download> Resume</a>
+        <a href="/assests/Brochure.pdf" class="brouchure" download>Brouchure</a>
+      </div>
+    </div>
+    </div>
+    <div class="about-image">
+      <img src="assests/main pic.png" alt="Prince Sharma">
+    </div>
+  </section>
+  <section class="showreel-section" id="showreel">
+    <h2>Showreel</h2>
+    <div class="video-container">
+      <video src="assests/showreel.mp4"  controls></video>
+    </div>
+  </section>
+    <section class="Projects" id="ProjectsId"> 
+  <h1 class="projectTittle">PROJECTS</h1>
+  <div class="tab-buttons">
+    <button class="tab-btn active" data-tab="design">Design</button>
+    <button class="tab-btn" data-tab="videos">Videos</button>
+    <button class="tab-btn" data-tab="3d">3D Designs</button>
+  </div>
+  <div class="container">
+    <div id="design" class="project-section active">
+    </div>
+    <div id="videos" class="project-section">
+    </div>
+    <div id="3d" class="project-section">
+    </div>
+  </div>
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <button class="close-btn" id="closeModal">X</button>
+      <div id="modalContent"></div>
+    </div>
+  </div>   
+  </section>    
+  <section class="service-section" id="serviceId">
+  <h1 class="ServiceTittle"> Services</h1>
+  <div class="card-container">
+    <div class="card">
+      <div class="card-image-wrapper">
+        <img src="/assests/service1.png" alt="Service 1">
+      </div>
+      <div class="card-content">
+        <h3 class="serviceH3">Motion Graphics</h3>
+        <p class="serviceP">Engaging animated visuals to explain, promote, or tell your story creatively.</p>
+          <button class="serviceButton">Learn More </button>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-image-wrapper">
+        <img src="/assests/service2.png" alt="Service 2">
+      </div>
+      <div class="card-content">
+        <h3 class="serviceH3">Video Editing</h3>
+        <p class="serviceP">Professional edits that enhance your message and keep your audience hooked</p>
+        <button class="serviceButton">Learn More</button>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-image-wrapper">
+        <img src="/assests/service3.png" alt="Service 3">
+      </div>
+      <div class="card-content">
+        <h3 class="serviceH3">Graphics Design</h3>
+        <p class="serviceP">Clean and mordern design that visually communicate your brand's identity.</p>
+        <button class="serviceButton">Learn More</button>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-image-wrapper">
+        <img src="/assests/service4.png" alt="Service 4">
+      </div>
+      <div class="card-content">
+        <h3 class="serviceH3">3d Animation</h3>
+        <p class="serviceP">Realistic 3d animation to showcase products, ideas, or stories with impact.</p>
+        <button class="serviceButton">Learn More</button>
+      </div>
+    </div>
+  </div>
+ </section>
+  <section class="skill-section" id="skillId">
+    <h1 class="skillTittle">Skills</h1>
+    <div class="image-grid">
+      <div class="image-container"><img src="/assests/after-effects.png" alt="Image 1"></div>
+      <div class="image-container"><img src="/assests/premiere-pro.png" alt="Image 2"></div>
+      <div class="image-container"><img src="/assests/figma.png" alt="Image 3"></div>
+      <div class="image-container"><img src="/assests/photoshop.png" alt="Image 4"></div>
+      <div class="image-container"><img src="/assests/illustrator.png" alt="Image 5"></div>
+      <div class="image-container"><img src="/assests/blender.png" alt="Image 6"></div>
+    </div>
+  </section>
+         <section id="contactId">
+  <h1 class="contactTittle">Contact</h1>
+  <div class="Contactcontainer">
+    <div class="form-section">
+      <form action="mailto:ps2126518@gmail.com" method="POST">
+        <input type="text" placeholder="Your Name" required />
+        <input type="number" placeholder="Phone Number" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea rows="5" placeholder="Your Message"></textarea>
+        <button type="submit" class="submitB">Send Message</button>
+      </form>
+    </div>
+    <div class="contact-section">
+      <h2 class="gitt">Get in touch Today</h2>
+      <p>"A time, I understand that success is just a about dielivering a product-about building relationships,<br> and just making a meaningful impact of client."</p>
+
+      <div class="call-boxes">
+        <div class="call-box">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="#007BFF" viewBox="0 0 24 24">
+            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.86 19.86 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.86 19.86 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 13 13 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 13 13 0 0 0 2.81.7 2 2 0 0 1 1.72 2z"/>
+          </svg>
+          <a href="tel:7985662692">7985662692</a>
+        </div>
+        <div class="call-box">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" stroke="#007BFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+            <rect x="2" y="4" width="20" height="16" rx="2" ry="2"/>
+            <polyline points="22,6 12,13 2,6"/>
+          </svg>
+          <a href="mailto:ps2126518@gmail.com">ps2126518@gmail.com</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="social-box">
+    <strong>Follow us:</strong><br />
+    <a href="https://www.instagram.com/pxsharma05/" aria-label="Instagram" title="Instagram">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32">
+    <defs>
+      <linearGradient id="instagramGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#f09433" />
+        <stop offset="25%" stop-color="#e6683c" />
+        <stop offset="50%" stop-color="#dc2743" />
+        <stop offset="75%" stop-color="#cc2366" />
+        <stop offset="100%" stop-color="#bc1888" />
+      </linearGradient>
+     </defs>
+       <path fill="url(#instagramGradient)" d="M12 2.163c3.204 0 3.584.012 4.85.07 1.17.054 1.97.24 2.427.403a4.92 4.92 0 0 1 1.675 1.093 4.92 4.92 0 0 1 1.093 1.675c.163.457.35 1.257.403 2.427.058 1.266.07 1.646.07 4.85s-.012 3.584-.07 4.85c-.054 1.17-.24 1.97-.403 2.427a4.92 4.92 0 0 1-1.093 1.675 4.92 4.92 0 0 1-1.675 1.093c-.457.163-1.257.35-2.427.403-1.266.058-1.646.07-4.85.07s-3.584-.012-4.85-.07c-1.17-.054-1.97-.24-2.427-.403a4.92 4.92 0 0 1-1.675-1.093 4.92 4.92 0 0 1-1.093-1.675c-.163-.457-.35-1.257-.403-2.427-.058-1.266-.07-1.646-.07-4.85s.012-3.584.07-4.85c.054-1.17.24-1.97.403-2.427a4.92 4.92 0 0 1 1.093-1.675 4.92 4.92 0 0 1 1.675-1.093c.457-.163 1.257-.35 2.427-.403 1.266-.058 1.646-.07 4.85-.07M12 0C8.741 0 8.333.014 7.053.072 5.775.13 4.673.344 3.75.705a6.92 6.92 0 0 0-2.51 1.646A6.92 6.92 0 0 0 .705 4.86c-.361.923-.575 2.025-.633 3.303C0 8.741 0 9.149 0 12c0 2.851.014 3.259.072 4.539.058 1.278.272 2.38.633 3.303a6.92 6.92 0 0 0 1.646 2.51 6.92 6.92 0 0 0 2.51 1.646c.923.361 2.025.575 3.303.633C8.741 24 9.149 24 12 24s3.259-.014 4.539-.072c1.278-.058 2.38-.272 3.303-.633a6.92 6.92 0 0 0 2.51-1.646 6.92 6.92 0 0 0 1.646-2.51c.361-.923.575-2.025.633-3.303.058-1.28.072-1.688.072-4.539s-.014-3.259-.072-4.539c-.058-1.278-.272-2.38-.633-3.303a6.92 6.92 0 0 0-1.646-2.51A6.92 6.92 0 0 0 19.14.705c-.923-.361-2.025-.575-3.303-.633C15.259.014 14.851 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zm0 10.162a3.999 3.999 0 1 1 0-7.998 3.999 3.999 0 0 1 0 7.998zm6.406-11.845a1.44 1.44 0 1 0 0 2.88 1.44 1.44 0 0 0 0-2.88z"/>
+        </svg>
+     </a>
+      <a href="#" aria-label="Facebook" title="Facebook">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="#007BFF" viewBox="0 0 24 24" width="30" height="30">
+        <path d="M22.675 0h-21.35C.6 0 0 .6 0 1.325v21.351C0 23.4.6 24 1.325 24H12.82v-9.294H9.692v-3.622h3.128V8.413c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.796.715-1.796 1.764v2.313h3.59l-.467 3.622h-3.123V24h6.116C23.4 24 24 23.4 24 22.675V1.325C24 .6 23.4 0 22.675 0z"/>
+      </svg>
+     </a> 
+         <a href="https://www.linkedin.com/in/prince-sharma-2b58682a3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" aria-label="LinkedIn" title="LinkedIn">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="#0A66C2" viewBox="0 0 24 24" width="30" height="30">
+         <path d="M20.447 20.452h-3.554v-5.569c0-1.327-.024-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.352V9h3.414v1.561h.049c.476-.9 1.637-1.85 3.369-1.85 3.602 0 4.269 2.37 4.269 5.451v6.29zM5.337 7.433a2.065 2.065 0 1 1 0-4.13 2.065 2.065 0 0 1 0 4.13zM6.814 20.452H3.86V9h2.954v11.452zM22.225 0H1.771C.792 0 0 .771 0 1.723v20.554C0 23.231.792 24 1.771 24h20.451C23.206 24 24 23.231 24 22.277V1.723C24 .771 23.206 0 22.225 0z"/>
+       </svg>
+     </a>
+
+  </div>
+  </section>
+           <footer class="footer">
+              <p>© 2025 Prince Sharma. All rights reserved.</p>
+              <p class="dev-credit">Designed & Developed by <a href="https://www.instagram.com/_itz_raj009_/" target="_blank">
+                &ensp;<strong>Raj Sharma</strong></a></p>
+           </footer>
+<script src="script.js"></script>
+</body>
+</html>
+
+                        
+
+      
